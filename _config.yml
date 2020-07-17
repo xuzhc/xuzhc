@@ -7,7 +7,7 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: zhch xu
 language: en
 timezone: ''
 
@@ -98,4 +98,20 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  message: [message]
+  repo:
+    # Either syntax is supported
+    github: https://github.com/xuzhc/xuzhc.github.io.git,master
+    gitee:
+      url: https://gitee.com/user/project.git
+      branch: master
+  extend_dirs:
+    - [extend directory]
+    - [another extend directory]
+  ignore_hidden:
+    public: false
+    [extend directory]: true
+    [another extend directory]: false
+  ignore_pattern:
+    [folder]: regexp  # or you could specify the ignore_pattern under a certain directory
