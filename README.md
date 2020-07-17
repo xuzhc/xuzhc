@@ -13,4 +13,16 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+npm insatll
+
+--BlueLake 主题依赖
+$ npm install hexo-renderer-jade@0.3.0 --save
+$ npm install hexo-renderer-stylus --save
+
+
+npm install hexo-deployer-git
 -->
+
+
+
